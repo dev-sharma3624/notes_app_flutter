@@ -1,0 +1,99 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# macOS
+/macos/Flutter/ephemeral/
+/macos/Pods/
+/macos/Runner.xcworkspace/
+
+# iOS
+/ios/Flutter/ephemeral/
+/ios/Pods/
+/ios/Runner.xcworkspace/
+/ios/.generated/
+/ios/ServiceDefinitions.json
+
+# Windows
+/windows/flutter/ephemeral/
+
+# Linux
+/linux/flutter/ephemeral/
+
+# Web
+/web/.dart_tool/
+
+# Coverage reports
+coverage/
+
+# Local environment variables or secrets
+*.env
+
+# OS junk
+Thumbs.db
+
+# Android NDK
+.cxx/
+
+# Gradle
+.gradle/
+**/gradle-wrapper.jar
+
+# Xcode extras
+*.xcscmblueprint
+*.xccheckout
+*.mobileprovision
+*.entitlements
+
+# More Flutter iOS/macOS build outputs
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/Generated.xcconfig
+Runner/GeneratedPluginRegistrant.*
+
+# Debug/Profiler captures
+captures/

@@ -1,0 +1,4 @@
+enum AppBarTabs{
+  notes,
+  checklist
+}
